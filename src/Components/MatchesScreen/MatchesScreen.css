@@ -1,0 +1,58 @@
+/* Table container styles */
+.table-container {
+    width: 100%;
+  }
+  
+  /* Table styles */
+  .match-table {
+    min-width: 650px;
+  }
+  
+  /* Table head styles */
+  .match-table-head {
+    background-color: #d3d3d3;
+    color: black;
+  }
+  
+  /* Table cell styles */
+  .match-table-cell {
+    color: black;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+  }
+  
+  /* Odd row styles */
+  .match-table-row:nth-of-type(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  /* Even row styles */
+  .match-table-row:nth-of-type(even) {
+    background-color: #ffffff;
+  }
+  
+  /* Highlighted row styles */
+  .highlighted-row {
+    background-color: #28a745 !important;
+  }
+  
+  /* Red alliance styles */
+  .red-alliance {
+    color: #d32f2f;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    background-color: #fee;
+  }
+  
+  /* Blue alliance styles */
+  .blue-alliance {
+    color: #1976d2;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    background-color: #eef;
+  }
+  
+  /* Button styles */
+  .scan-button {
+    text-decoration: none;
+  }
